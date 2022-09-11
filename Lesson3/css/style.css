@@ -1,0 +1,106 @@
+#caca {
+	color: rgb(255, 154, 4);
+}
+
+.span-green {
+	color: rgb(31, 239, 31);
+}
+
+.span-red {
+	color: rgb(255, 0, 0);
+}
+
+.span-blue {
+	color: rgb(6, 98, 236);
+}
+
+div {
+	color: rgb(238, 146, 146);
+}
+
+p {
+	color: #156647;
+}
+
+.div-block2  {
+	color: rgb(6, 98, 236);
+}
+
+.div-block2 > p {
+	color: rgb(6, 98, 236);
+}
+
+.color-red {
+	color: red;
+}
+
+.color-blue {
+	color: blue;
+}
+
+.color-red.color-blue {
+	color: rgb(131, 0, 253);
+}
+
+.color-red.color-blue.color-black {
+	color: rgb(0, 0, 0);
+}
+
+.div-block4 * {
+	color: red;
+}
+
+.div-block4 .color-blue {
+	color: blue;
+}
+
+.div-block4 .color-blue li{
+	color: blue;
+}
+
+.div-block5 * {
+	color: #ccc;
+}
+
+/* !толко параграфы внутри */
+.div-block5 p {
+	color: rgb(41, 135, 1);
+}
+
+/* ! только параграфы первого уровня внутри блока*/
+.div-block5 > p {
+	color: rgba(37, 65, 244, 0.573);
+}
+
+/* ! только параграфы идущие после первого параграфа первого уровня */
+.div-block5 > p + p {
+	color: rgb(246, 11, 11);
+}
+
+/* ! только параграфы идущие после-после первого параграфа первого уровня */
+.div-block5 > p + p + p {
+	color: rgb(22, 17, 17);
+}
+
+/* ! ВСЕ параграфы идущие после-после-после первого параграфа первого уровня */
+.div-block5 > p + p + p ~ p {
+	color: rgb(179, 246, 11);
+}
+
+.div-block5 > ul li {
+	color: rgb(65, 195, 255);
+}
+
+.div-block5 ul > li p {
+	color: rgb(116, 3, 99);
+}
+
+.div-block5 ul > li div p{
+	color: rgb(255, 67, 4);
+}
+
+
+
+
+
+
