@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@font-face {
+font-family: Lato;
+src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+	font-family: Lato;
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+	}
+
+@font-face {
+	font-family: Lato;
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+	}
+
+@font-face {
+font-family: Lars;
+src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+	font-family: Lars;
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+	}
+
+@font-face {
+	font-family: Lars;
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+	}
+
+body {
+	font-family: 'Roboto' , sans-serif;
+	font-size: 21px;
+	color: #212529;
+	max-width: 1000px;
+}
+
+.title, .subtitle {
+	font-weight: 700;
+	font-size: 50px;
+	color: rgb(0, 0, 0);
+}
+
+.subtitle {
+	font-size: 32px;
+	line-height: 1.8;
+}
+
+h3 {
+	color: rgb(0, 0, 0);
+	font-weight: 700;
+}
+
+a {
+	line-height: 1.8;
+	color: #3d2424;
+}
+
+p a {
+	color: #289d28;
+	line-height: 1.6;
+}
+
+p {
+	line-height: 1.4;
+}
+
+p span {
+	font-weight: 700;
+}
+
+li {
+	line-height: 1.6;
+}
+
+footer span {
+	color: rgb(198, 198, 198);
+}
+
+.lato{
+	font-family: 'Lato';
+}
+
+.lars {
+	font-family: 'Lars';
+}
+
+.block {
+	color: rgb(0, 0, 0);
+}
+
+.block p {
+	color: #289d28;
+}
+
+.block .lato-text {
+	color: red;
+}
+
+.block > p {
+	color: #f7ab1d;
+}
+
+.lato-text + p {
+	color: aqua;
+}
+
+.lato-text + p +p {
+	color: rgb(98, 67, 237);
+}
+
+.lato ~ p + div > p {
+	color: rgb(255, 0, 140);
+}
+
+.lato ~ p + div > p + p +p {
+	color: rgb(0, 0, 0);
+}
+
+
+
