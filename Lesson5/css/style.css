@@ -1,0 +1,162 @@
+@font-face {
+font-family: SonyEr;
+src: url("../fonts/SonyEricssonLogo.woff2") format("woff2"), url("../fonts/SonyEricssonLogo.woff") format("woff");
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+font-family: Azoft;
+src: url("../fonts/AzoftSans.woff2") format("woff2"), url("../fonts/AzoftSans.woff") format("woff");
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+	font-family: Azoft;
+	src: url("../fonts/AzoftSans-Bold.woff2") format("woff2"), url("../fonts/AzoftSans-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+	}
+
+@font-face {
+	font-family: Azoft;
+	src: url("../fonts/AzoftSans-Italic.woff2") format("woff2"), url("../fonts/AzoftSans-Italic.woff") format("woff");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+	}
+
+@font-face {
+	font-family: Azoft;
+	src: url("../fonts/AzoftSans-BoldItalic.woff2") format("woff2"), url("../fonts/AzoftSans-BoldItalic.woff") format("woff");
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+	}
+
+body {
+	font-size: 18px;
+	line-height: 1.3;
+}
+
+div {
+	margin-bottom: 30px;
+	padding: 0 15px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+header, footer {
+	text-align: center;
+}
+
+.header-block span {
+	line-height: 169px;
+	font-family: 'Rubik Glitch', 'Courier New', Courier, monospace;
+	font-size: 86px;
+	color: rgb(120, 12, 12);
+	margin: 0 150px;
+	text-transform: uppercase;
+}
+
+header {
+	padding-top: 20px;
+	margin-bottom: 30px;
+}
+
+.title, .subtitle, .subtitle-3 {
+	font-family: 'Rubik Wet Paint', monospace;
+	margin-bottom: 15px;
+}
+
+.title {
+	font-size: 38px;
+	text-shadow: 0px 0px 60px rgb(0, 0, 0), 0px 0px 30px rgb(0, 0, 0), 0px 0px 10px rgb(248, 17, 17);
+}
+
+.subtitle {
+	font-size: 20px;
+	font-style: oblique;
+}
+
+.menu {
+	font-family: 'Azoft', monospace;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	text-decoration: underline 2px;
+}
+
+.general-info .text {
+	text-align: justify;
+}
+
+.text {
+	font-family: 'SonyEr' , monospace;
+	text-indent: 20px;
+}
+
+.text a {
+	color: #907a2b;
+	font-weight: 700;
+}
+
+.subtitle-3 {
+	margin: 0;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+
+ul, .stories-block>h3+p{
+	font-family: 'Azoft', monospace;
+	font-size: 16px;
+}
+
+div span {
+	font-family: 'Azoft', monospace;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.books-block, .adaptations-block {
+	text-align: right;
+}
+
+.books-block .subtitle, .adaptations-block .subtitle{
+	text-align: center;
+}
+
+.movie-block {
+	margin-bottom: 0;
+}
+
+.related-books-block .text {
+	margin-bottom: 10px;
+}
+
+.glow {
+	font-weight: 400;
+	font-style: normal;
+	text-shadow: 0px 0px 9px rgba(52, 240, 255, 1);
+}
+
+.movie-block .subtitle-3 {
+	text-align: center;
+	text-decoration: line-through 3px;
+}
+
+.movie-block .text span {
+	color: rgb(120, 12, 12);
+	text-transform: uppercase;
+	text-decoration: underline overline 3px dotted;
+}
+
+
