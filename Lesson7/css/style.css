@@ -23,17 +23,6 @@ body{
 	margin-bottom: 92px;
 }
 
-.date, .share {
-	display: inline-block;
-}
-
-.share-item {
-	display: inline-block;
-	border: 2px solid red;
-	
-	
-}
-
 .figma img {
 	max-width: 100%;
 	margin-bottom: 60px;
