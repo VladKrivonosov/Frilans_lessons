@@ -68,7 +68,7 @@ body{
 .figma li {
 	padding-left: 32px;
 	margin-bottom: 4px;
-	background: url('../img/check.svg') 0 50% no-repeat;
+	background: url('../img/check.svg') 0 6px no-repeat;
 }
 
 .figma ul {
