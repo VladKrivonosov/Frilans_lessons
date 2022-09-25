@@ -1,5 +1,5 @@
 body{
-	background: url('img/bg3.png') 50%/auto 100%  no-repeat, #E5DFDF;
+	background: url('../img/bg3.png') 50%/auto 100%  no-repeat, #E5DFDF;
 	background-size: contain;
 	padding: 255px 0 25px 0;
 }
@@ -12,7 +12,7 @@ body{
 	line-height: 1.6;
 	color: #424551;
 	font-size: 16px;
-	background: url('img/char-sm.png') repeat-x, url('img/char-sm.png') repeat-y, url('img/char-sm.png') 98% 100% repeat-y;
+	background: url('../img/char-sm.png') repeat-x, url('../img/char-sm.png') repeat-y, url('../img/char-sm.png') 98% 100% repeat-y;
 }
 
 .figma h1 {
@@ -58,7 +58,7 @@ body{
 .figma div + p + p + p + p{
 	padding-left: 58px;
 	margin-bottom: 48px;
-	background: url('img/braces.svg') no-repeat;
+	background: url('../img/braces.svg') no-repeat;
 }
 
 .figma div + p + p + p + p + p{
@@ -68,7 +68,7 @@ body{
 .figma li {
 	padding-left: 32px;
 	margin-bottom: 4px;
-	background: url('img/check.svg') 0 50% no-repeat;
+	background: url('../img/check.svg') 0 50% no-repeat;
 }
 
 .figma ul {
@@ -80,7 +80,7 @@ ul + p {
 }
 
 .space {
-	background: url('img/bg-space.jpg') 0 0/cover no-repeat;
+	background: url('../img/bg-space.jpg') 0 0/cover no-repeat;
 	margin-bottom: 50px;
 }
 
@@ -115,7 +115,7 @@ ul + p {
 	max-width: 300px;
 	background: none;
 	padding: 0;
-	background: url('img/face.png') 50% no-repeat;
+	background: url('../img/face.png') 50% no-repeat;
 	background-size: 200px 300px;
 }
 
