@@ -1,0 +1,137 @@
+body{
+	background: url('/img/bg3.png') 50%/auto 100%  no-repeat, #E5DFDF;
+	background-size: contain;
+	padding: 255px 0 25px 0;
+}
+.container.figma{
+	overflow: scroll;
+	max-width: 810px;
+	max-height: 655px;
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
+	line-height: 1.6;
+	color: #424551;
+	font-size: 16px;
+	background: url('/img/char-sm.png') repeat-x, url('/img/char-sm.png') repeat-y, url('/img/char-sm.png') 98% 100% repeat-y;
+}
+
+.figma h1 {
+	font-weight: 900;
+	line-height: 1.3;
+	font-size: 46px;
+	color: #1E212C;
+	margin-bottom: 92px;
+}
+
+.date, .share {
+	display: inline-block;
+}
+
+.share-item {
+	display: inline-block;
+	border: 2px solid red;
+	
+	
+}
+
+.figma img {
+	max-width: 100%;
+	margin-bottom: 60px;
+}
+
+.figma div + p, .figma div + p + p + p + p {
+	font-weight: 700;
+	line-height: 1.5;
+	font-size: 20px;
+	color: #1E212C;
+	margin-bottom: 24px;
+}
+
+.figma div + p + p {
+	margin-bottom: 26px;
+}
+
+.figma div + p + p + p {
+	margin-bottom: 48px;
+}
+
+.figma div + p + p + p + p{
+	padding-left: 58px;
+	margin-bottom: 48px;
+	background: url('/img/braces.svg') no-repeat;
+}
+
+.figma div + p + p + p + p + p{
+	margin-bottom: 24px;
+}
+
+.figma li {
+	padding-left: 32px;
+	margin-bottom: 4px;
+	background: url('/img/check.svg') 0 50% no-repeat;
+}
+
+.figma ul {
+	margin-bottom: 24px;
+}
+
+ul + p {
+	margin-bottom: 50px;
+}
+
+.space {
+	background: url('/img/bg-space.jpg') 0 0/cover no-repeat;
+	margin-bottom: 50px;
+}
+
+.earth {
+	display: inline-block;
+	max-width: 150px;
+	max-height: 150px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 40px 5px rgba(255, 255, 255, 0.82);
+	margin: 15px 0 15px 15px;
+}
+
+.space img {
+	max-width: 100%;
+	margin: 0;
+}
+
+.mars-space {
+	text-align: right;
+}
+
+.mars {
+	margin-right: 15px;
+}
+
+.mirrors-list {
+	text-align: center;
+}
+
+.mirrors-list .mirror-item{
+	display: inline-block;
+	max-width: 300px;
+	background: none;
+	padding: 0;
+	background: url('/img/face.png') 50% no-repeat;
+	background-size: 200px 300px;
+}
+
+.mirror-item img{
+	max-width: 100%;
+}
+
+.mirrors-list .mirror-item +li {
+	background-size: 100% 100%;
+}
+
+.mirrors-list .mirror-item +li + li {
+	background-size: auto 100%;
+}
+
+.mirrors-list .mirror-item +li + li + li {
+	background-size: 100% auto;
+}
+
