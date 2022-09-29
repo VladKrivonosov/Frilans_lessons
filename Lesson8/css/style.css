@@ -225,7 +225,7 @@ body {
 	height: 500px;
 	font-size: 0;
 	background: url('../img/game/desert-bg.jpg') 0 0/cover no-repeat;
-	cursor: url("/img/game/cursor.png"), pointer;
+	cursor: url("../img/game/cursor.png"), pointer;
 }
 
 .field div:not(:first-child) {
