@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/null.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<title>Lesson №14</title>
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<header class="header">
+			<h1 class="header__title title">
+				FLEX
+			</h1>
+
+			<nav class="header__menu menu">
+				<ul class="menu__list">
+					<li class="menu__item">
+						<a class="menu__link" href="#">
+							display
+						</a>
+						<ul class="sub-menu">
+							<li class="sub-menu__item">
+								<a class="sub-menu__link" href="#block">
+									block
+								</a>
+							</li>
+
+							<li class="sub-menu__item">
+								<a class="sub-menu__link" href="#inline-block">
+									inline-block
+								</a>
+							</li>
+
+							<li class="sub-menu__item">
+								<a class="sub-menu__link" href="#flex">
+									flex
+								</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="menu__item">
+						<a class="menu__link" href="#">
+							justify-content
+						</a>
+						<ul class="sub-menu">
+							<li class="sub-menu__item">
+								<a class="sub-menu__link" href="#space-between">
+									space-between
+								</a>
+							</li>
+
+							<li class="sub-menu__item">
+								<a class="sub-menu__link" href="#space-around">
+									space-around
+								</a>
+							</li>
+
+							<li class="sub-menu__item">
+								<a class="sub-menu__link" href="#space-evenly">
+									space-evenly
+								</a>
+							</li>
+
+							<li class="sub-menu__item">
+								<a class="sub-menu__link" href="#jflex-end">
+									flex-end
+								</a>
+							</li>
+
+							<li class="sub-menu__item">
+								<a class="sub-menu__link" href="#jcenter">
+									center
+								</a>
+							</li>
+
+							<li class="sub-menu__item">
+								<a class="sub-menu__link" href="#jflex-start">
+									flex-start
+								</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="menu__item">
+						<a class="menu__link" href="#">
+							things
+						</a>
+						<ul class="sub-menu">
+							<li class="sub-menu__item">
+								<a class="sub-menu__link" href="#rreverse">
+									reverse
+								</a>
+							</li>
+
+							<li class="sub-menu__item">
+								<a class="sub-menu__link" href="#sorder">
+									order
+								</a>
+							</li>
+
+							<li class="sub-menu__item">
+								<a class="sub-menu__link" href="#combo">
+									combo
+								</a>
+							</li>
+
+							<li class="sub-menu__item">
+								<a class="sub-menu__link" href="#blocks">
+									blocks
+								</a>
+							</li>
+
+							<li class="sub-menu__item">
+								<a class="sub-menu__link" href="#cards">
+									cards
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="main">
+			<div class="flexbox">
+				<h2 class="flexbox__subtitle" id="block">
+					block
+				</h2>
+
+				<div class="flexbox__block-b">
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+				</div>
+			</div>
+
+			<div class="flexbox">
+				<h2 class="flexbox__subtitle" id="inline-block">
+					inline-block
+				</h2>
+
+				<div class="flexbox__block-b">
+					<div class="flexbox__item flexbox__item--inline"></div>
+					<div class="flexbox__item flexbox__item--inline"></div>
+					<div class="flexbox__item flexbox__item--inline"></div>
+					<div class="flexbox__item flexbox__item--inline"></div>
+				</div>
+			</div>
+
+			<div class="flexbox">
+				<h2 class="flexbox__subtitle" id="flex">
+					flex
+				</h2>
+
+				<div class="flexbox__block">
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+				</div>
+			</div>
+
+			<div class="flexbox">
+				<h2 class="flexbox__subtitle" id="space-between">
+					flex + justify-content: space-between
+				</h2>
+
+				<div class="flexbox__block flexbox__block--jcsb">
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+				</div>
+			</div>
+
+			<div class="flexbox">
+				<h2 class="flexbox__subtitle" id="space-around">
+					flex + justify-content: space-around
+				</h2>
+
+				<div class="flexbox__block flexbox__block--jcsa">
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+				</div>
+			</div>
+
+			<div class="flexbox">
+				<h2 class="flexbox__subtitle" id="space-evenly">
+					flex + justify-content: space-evenly
+				</h2>
+
+				<div class="flexbox__block flexbox__block--jcse">
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+				</div>
+			</div>
+
+			<div class="flexbox">
+				<h2 class="flexbox__subtitle" id="jflex-end">
+					flex + justify-content: flex-end
+				</h2>
+
+				<div class="flexbox__block flexbox__block--jcfe">
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+				</div>
+			</div>
+
+			<div class="flexbox">
+				<h2 class="flexbox__subtitle" id="jcenter">
+					flex + justify-content: center
+				</h2>
+
+				<div class="flexbox__block flexbox__block--jcc">
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+				</div>
+			</div>
+
+			<div class="flexbox">
+				<h2 class="flexbox__subtitle" id="jflex-start">
+					flex + justify-content: flex-start
+				</h2>
+
+				<div class="flexbox__block">
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+					<div class="flexbox__item"></div>
+				</div>
+			</div>
+
+			<div class="flexbox">
+				<h2 class="flexbox__subtitle" id="rreverse">
+					row-reverse
+				</h2>
+
+				<div class="flexbox__block flexbox__block--reverse">
+					<div class="flexbox__item">1</div>
+					<div class="flexbox__item">2</div>
+					<div class="flexbox__item">3</div>
+					<div class="flexbox__item">4</div>
+				</div>
+			</div>
+
+			<div class="flexbox">
+				<h2 class="flexbox__subtitle" id="sorder">
+					thange order
+				</h2>
+
+				<div class="flexbox__block">
+					<div class="flexbox__item flexbox__item--sorder">1</div>
+					<div class="flexbox__item flexbox__item--sorder">2</div>
+					<div class="flexbox__item flexbox__item--sorder">3</div>
+					<div class="flexbox__item flexbox__item--sorder">4</div>
+				</div>
+			</div>
+
+			<div class="flexbox">
+				<h2 class="flexbox__subtitle" id="combo">
+					ccccombo
+				</h2>
+
+				<div class="flexbox__block flexbox__block--combo">
+					<div class="flexbox__item">1</div>
+					<div class="flexbox__item">2</div>
+					<div class="flexbox__item">3</div>
+					<div class="flexbox__item">4</div>
+				</div>
+			</div>
+
+			<div class="flexbox">
+				<h2 class="flexbox__subtitle" id="blocks">
+					blocks
+				</h2>
+
+				<div class="flexbox__block flexbox__block--cards">
+					<div class="box">
+						<div class="content">1</div>
+					</div>
+					<div class="box">
+						<div class="content">2</div>
+					</div>
+					<div class="box">
+						<div class="content">3</div>
+					</div>
+					<div class="box">
+						<div class="content">4</div>
+					</div>
+				</div>
+
+				<div class="flexbox__block flexbox__block--cards">
+					<div class="box">
+						<div class="content">1</div>
+					</div>
+					<div class="box">
+						<div class="content">2</div>
+					</div>
+					<div class="box">
+						<div class="content">3</div>
+					</div>
+				</div>
+
+				<div class="flexbox__block flexbox__block--cards">
+					<div class="box">
+						<div class="content">1</div>
+					</div>
+					<div class="box">
+						<div class="content">2</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="flexbox">
+				<h2 class="flexbox__subtitle" id="cards">
+					cards
+				</h2>
+
+				<div class="cards">
+					<div class="cards__column">
+						<div class="cards__item item-card">
+							<div class="item-card__image">
+								<img src="https://dummyimage.com/120x100/cf8e2c/cf8e2c" alt="plug">
+							</div>
+							<div class="item-card__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sunt
+								eaque odio dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Cupiditate sunt
+								eaque odio dicta!
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sunt
+								eaque odio dicta!
+							</div>
+							<a class="item-card__button" href="#">button</a>
+						</div>
+					</div>
+
+					<div class="cards__column">
+						<div class="cards__item item-card">
+							<div class="item-card__image">
+								<img src="https://dummyimage.com/120x100/cf8e2c/cf8e2c" alt="plug">
+							</div>
+							<div class="item-card__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sunt
+								eaque odio dicta!
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sunt
+								eaque odio dicta!
+							</div>
+							<a class="item-card__button" href="#">button</a>
+						</div>
+					</div>
+
+					<div class="cards__column">
+						<div class="cards__item item-card">
+							<div class="item-card__image">
+								<img src="https://dummyimage.com/120x100/cf8e2c/cf8e2c" alt="plug">
+							</div>
+							<div class="item-card__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sunt
+								eaque odio dicta!
+							</div>
+							<a class="item-card__button" href="#">button</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<blockquote class="blockquote">
+				<p>Underidoderidoderiododeriodoo</p>
+				— <span>Winstion Churchill</span>
+			</blockquote>
+		</footer>
+	</div>
+</body>
+
+</html>
