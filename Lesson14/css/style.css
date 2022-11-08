@@ -96,9 +96,7 @@ a::before {
 	bottom: 0;
 	height: 2px;
 	width: 0;
-	/* background-color: #FB6652; */
-	background-color: #ffffff;
-	z-index: 2;
+	background-color: #FB6652;
 }
 
 a:hover::before {
